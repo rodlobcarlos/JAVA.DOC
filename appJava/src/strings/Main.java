@@ -25,7 +25,28 @@ public class Main {
         System.out.println(text2.toUpperCase()); // Pasa el texto a mayúscula
 
         String text3 = "   Esto es un String nuevo     ";
-        System.out.println(text3.trim()); // El metodo trim() muestra el String sin espacios delante y atrás
+        System.out.println(text3.trim()); // El metodo trim() muestra el String sin espacios delante y atrás-0
         System.out.println(text3);
+
+        /*
+        Para poder escapar un caracter, usamos esta sintaxis
+        la cual usa comillas dobles para encerrar el caracter que queramos escapar y
+        luego las barras invertidas a los lados de este encierre;
+         */
+        String text4 = "Esto es un \"String\"";
+        System.out.println(text4);
+
+        // También se pueden escapar esas barras invertidas
+        String text5 = "C:\\Esto es un \"String\">"; // Esto es un ejemplo de un directorio de Windows donde escapamos las barras invertidas
+        System.out.println(text5);
+
+        /*
+        Para un salto de línea se usa \n, para una tabulación se usa \t;
+         */
+        String text6 = "Esto es \nun Salto de línea"; // Salto de línea
+        System.out.println(text6);
+        String text7 = "\tEsto es una tabulacion"; // Esto es una tabulación
+        System.out.println(text7);
+
     }
 }
