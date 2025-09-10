@@ -1,3 +1,5 @@
+package structures;
+
 import java.util.ArrayList;
 
 public class List {
@@ -5,7 +7,7 @@ public class List {
     /**
      * "Es una estructura de datos que tiene una longitud no fija,
      * puede tanto crecer como decrecer y puedes eliminar datos de esta o
-     * incluso la List entera. No pueden crearse listas de tipo de dato primitivo (Solo objetos)".
+     * incluso la list entera. No pueden crearse listas de tipo de dato primitivo (Solo objetos)".
      *
      */
 
